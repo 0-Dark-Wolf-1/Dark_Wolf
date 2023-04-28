@@ -1,0 +1,468 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+
+.container {
+    height: 105px;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+}
+
+.logo__lot {
+    width: 210px;
+    height: 210px;
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    margin: 39px 244px 39px 70px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #262626;
+}
+
+.search {
+    margin: 38px 20px 38px 0;
+}
+
+.line {
+    height: 39px;
+    width: 1px;
+    border-right: 1px solid #9C9C42;
+    margin-top: 35px;
+}
+
+.basket {
+    margin: 38px 40px 38px 20px;
+}
+
+.login__btn {
+    font-family: 'Poppins', sans-serif;
+    width: 110px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9C9C42;
+    text-align: center;
+    border: 1px solid #9C9C42;
+    border-radius: 10px;
+    margin-top: 28px;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* main */
+
+.main {
+    padding-top: 206px;
+    margin: 0 auto;
+    max-width: 1280px;
+    max-height: 600px;
+}
+
+
+.container__top {
+    padding: 0 55px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+.banner__text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.banner__btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-top: 35px;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main__bg {
+    position: relative;
+    z-index: -1;
+    top: -395px;
+    height: 600px;
+    background: linear-gradient(90deg, #9C9C42 0%, rgba(156, 156, 66, 0.2) 100%);
+}
+
+.banner__img {
+    position: relative;
+    z-index: -2;
+    top: -995px;
+}
+
+/* our__products */
+
+.our__products {
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 100px auto 0;
+    padding: 0 55px;
+}
+
+.product__title {
+    max-height: 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+span.color {
+    max-height: 40px;
+    color: #9C9C42;
+}
+
+.card__product {
+    display: flex;
+    gap: 30px;
+}
+
+.card__product-item {
+    width: 270px;
+    height: 428px;
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.product__img {
+    margin: 10px;
+}
+
+.product__item {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.product__price {
+    font-weight: 600;
+    font-size: 24px;
+    color: #9C9C42;
+    margin: 15px;
+}
+
+.product__buy {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #9C9C42;
+    background-color: transparent;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #9C9C42;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shop__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background-color: #9C9C42;
+    width: 240px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    margin: 40px 465px 0px;
+    cursor: pointer;
+}
+
+/* about__us */
+
+.about__us {
+    max-width: 1280px;
+    max-height: 481px;
+    margin: 100px auto 0;
+    padding: 100px 55px;
+}
+
+.about__title {
+    max-height: 40px;
+    font-size: 36px;
+}
+
+.about__text {
+    max-width: 570px;
+    margin-top: 40px;
+}
+
+.about__btn {
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background-color: #9C9C42;
+    width: 180px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about__img {
+    position: relative;
+    z-index: -1;
+    top: -376px;
+    right: 55px;
+}
+
+/* blog */
+
+.blog {
+    margin: 0 auto;
+    max-width: 1280px;
+    max-height: 676px;
+    background-color: #fff;
+    padding: 100px 55px;
+}
+
+.blog__title {
+    max-height: 40px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+.blog__title-name {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.blog__news {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9C9C42;
+}
+
+.blog__news-text {
+    margin-right: 5px;
+}
+
+.blog__tabs {
+    display: flex;
+    gap: 30px;
+}
+
+.blog__tab {
+    max-width: 370px;
+}
+
+.blog__img {
+    display: block;
+}
+
+.blog__links {
+    max-height: 225px;
+}
+
+.blog__link-img {
+    position: relative;
+    top: -50px;
+    left: 321px;
+
+}
+
+.blog__info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    max-height: 16px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.blog__date {
+    margin-right: 7px;
+}
+
+.blog__ellipse {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #9C9C42;
+    margin-right: 7px;
+}
+
+.blog__review {
+    margin-right: 5px;
+}
+
+.blog__name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* recipes */
+
+.recipes {
+    margin: 0 auto;
+    max-width: 1280px;
+    max-height: 558px;
+    padding: 100px 55px;
+}
+
+.recipes__title {
+    max-height: 40px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+.recipes__title-name {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.recipes__view {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+
+.recipes__view-text {
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9C9C42;
+
+}
+
+.recipes__tabs {
+    display: flex;
+    gap: 30px;
+}
+
+.recipes__tab {
+    max-width: 370px;
+}
+
+.recipes__links {
+    max-height: 225px;
+
+}
+
+.recipes__img {
+    display: block;
+}
+
+.recipes__link-text {
+    position: relative;
+    top: -219px;
+    padding: 6px 20px 6px 15px;
+    color: #fff;
+    background: #9C9C42;
+    border-radius: 0px 0px 15px 0px;
+}
+
+.recipes__name {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* footer */
+
+.footer {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 50px;
+    background-color: #9C9C42;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__menu-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer__menu+.footer__menu {
+    margin-top: 10px;
+}
