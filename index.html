@@ -2,274 +2,363 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
-    <title>Organic Food Store</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+  <title>Organic Food Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo__lot">
-                <a class="logo" href="#">
-                    <img class="img__logo" src="images/logo.svg" alt="">
-                </a>
-            </div>
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Our Shop</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Blog</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">Recipes</a>
-                    </li>
-                    <li class="menu__list-item">
-                        <a class="menu__list-link" href="#">About Us</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="#" class="search">
-                <img src="images/search.svg" alt="">
-            </a>
-            <div class="line"></div>
-            <a href="#" class="basket">
-                <img src="images/basket.svg" alt="">
-            </a>
-            <button class="login__btn">Login</button>
-        </div>
-    </header>
-
-    <main class="main">
-        <section class="banner">
-            <div class="container__top">
-                <h1 class="title">Organic Food Store</h1>
-                <p class="banner__text">Current delivery lead times are between 5-7 working days</p>
-                <button class="banner__btn">Shop now</button>
-            </div>
-        </section>
-        <div class="main__bg"></div>
-        <img class="banner__img" src="images/banner_bg.jpg" alt="Banner">
-
-    </main>
-
-    <!-- our__products -->
-
-    <section class="our__products">
-        <h2 class="product__title">Our <span class="color">Products</span></h2>
-        <div class="card__product">
-            <div class="card__product-item">
-                <img class="product__img" src="images/avrum.jpg" alt="">
-                <h4 class="product__item">Arvum</h4>
-                <p class="product__text"><b>Gran Reserva Vinegar,</b> 200ml</p>
-                <p class="product__price">31,51 €</p>
-                <button class="product__buy">
-                    <img class="product__basket" src="images/basket_btn.svg" alt="">
-                    <p>Add to cart</p>
-                </button>
-            </div>
-            <div class="card__product-item">
-                <img class="product__img" src="images/jose_andres.jpg" alt="">
-                <h4 class="product__item">José Andrés</h4>
-                <p class="product__text"><b>Extra Virgin Olive,</b> 500ml</p>
-                <p class="product__price">52,95 €</p>
-                <button class="product__buy">
-                    <img class="product__basket" src="images/basket_btn.svg" alt="">
-                    <p>Add to cart</p>
-                </button>
-            </div>
-            <div class="card__product-item">
-                <img class="product__img" src="images/ego_sum.jpg" alt="">
-                <h4 class="product__item">Ego Sum</h4>
-                <p class="product__text"><b>Extra Virgin Olive Oil,</b> 500ml</p>
-                <p class="product__price">22,49 €</p>
-                <button class="product__buy">
-                    <img class="product__basket" src="images/basket_btn.svg" alt="">
-                    <p>Add to cart</p>
-                </button>
-            </div>
-            <div class="card__product-item">
-                <img class="product__img" src="images/jose_andres_2.jpg" alt="">
-                <h4 class="product__item">José Andrés</h4>
-                <p class="product__text"><b>Extra Virgin Olive Oil,</b> 500ml</p>
-                <p class="product__price">23,83 €</p>
-                <button class="product__buy">
-                    <img class="product__basket" src="images/basket_btn.svg" alt="">
-                    <p>Add to cart</p>
-                </button>
-            </div>
-        </div>
-        <button class="shop__btn">
-            <p>Shop all products</p>
-            <img src="images/arrow.svg" alt="arrow">
-        </button>
-    </section>
-
-    <section class="about__us">
-        <container class="container__about">
-            <h2 class="about__title">ABOUT <span class="color">US</span></h2>
-            <p class="about__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-            <button class="about__btn">Find out more</button>
-        </container>
-        <img class="about__img" src="images/about_us_bg.jpg" alt="about_us">
-    </section>
-
-    <!-- blog -->
-
-    <section class="blog">
-        <container class="contanier__blog">
-            <div class="blog__title">
-                <h2 class="blog__title-name">BLOG</h2>
-                <a class="blog__news" href="#">
-                    <p class="blog__news-text">more news</p>
-                    <img class="blog__news-img" src="images/arrow_news.svg" alt="arrow_news">
-                </a>
-            </div>
-            <div class="blog__tabs">
-                <div class="blog__tab">
-                    <div class="blog__links">
-                        <a href="#" class="blog__link">
-                            <img src="images/blog_img-1.jpg" alt="blog__img-1" class="blog__img">
-                            <img src="images/blog_btn.svg" alt="blog_btn" class="blog__link-img">
-                        </a>
-                    </div>
-                    <div class="blog__info">
-                        <p class="blog__date">8 SEP 2020</p>
-                        <div class="blog__ellipse"></div>
-                        <img class="blog__review" src="images/review.svg" alt="review">
-                        <p class="blog__number">585</p>
-                    </div>
-                    <h3 class="blog__name">5 reasons to love organic</h3>
-                    <p class="blog__text">There are many reasons to love organic food and farming. We take a look at why
-                        organic is good for you and your family.</p>
-                </div>
-                <div class="blog__tab">
-                    <div class="blog__links">
-                        <a href="#" class="blog__link">
-                            <img src="images/blog_img-2.jpg" alt="blog__img-2" class="blog__img">
-                            <img src="images/blog_btn.svg" alt="blog_btn" class="blog__link-img">
-                        </a>
-                    </div>
-                    <div class="blog__info">
-                        <p class="blog__date">6 SEP 2020</p>
-                        <div class="blog__ellipse"></div>
-                        <img class="blog__review" src="images/review.svg" alt="review">
-                        <p class="blog__number">820</p>
-                    </div>
-                    <h3 class="blog__name">You’re the Apple for My Pie</h3>
-                    <p class="blog__text">This year, we plan to bake a home-made apple pie, but we need the main
-                        ingredient: apples, of course!</p>
-                </div>
-                <div class="blog__tab">
-                    <div class="blog__links">
-                        <a href="#" class="blog__link">
-                            <img src="images/blog_img-3.jpg" alt="blog__img-3" class="blog__img">
-                            <img src="images/blog_btn.svg" alt="blog_btn" class="blog__link-img">
-                        </a>
-                    </div>
-                    <div class="blog__info">
-                        <p class="blog__date">6 SEP 2020</p>
-                        <div class="blog__ellipse"></div>
-                        <img class="blog__review" src="images/review.svg" alt="review">
-                        <p class="blog__number">923</p>
-                    </div>
-                    <h3 class="blog__name">Best Christmas food gifts for 2020</h3>
-                    <p class="blog__text">From quick bites to comforting teas, Christmas is the right time of the year
-                        to spoil your loved ones with food gifts.</p>
-                </div>
-            </div>
-        </container>
-    </section>
-
-    <!-- recipes -->
-
-    <section class="recipes">
-        <container class="container__recipes">
-            <div class="recipes__title">
-                <h2 class="recipes__title-name">RECIPES</h2>
-                <a class="recipes__view" href="#">
-                    <p class="recipes__view-text">view all</p>
-                    <img class="recipes__view-img" src="images/arrow_news.svg" alt="arrow_view">
-                </a>
-            </div>
-            <div class="recipes__tabs">
-                <div class="recipes__tab">
-                    <div class="recipes__links">
-                        <a href="#" class="recipes__link">
-                            <img src="images/recipes_img-1.jpg" alt="recipes__img-1" class="recipes__img">
-                            <a class="recipes__link-text" href="#">Breakfast</a>
-                        </a>
-                    </div>
-                    <h3 class="recipes__name">Banana Crunch Pancakes</h3>
-                </div>
-                <div class="recipes__tab">
-                    <div class="recipes__links">
-                        <a href="#" class="recipes__link">
-                            <img src="images/recipes_img-2.jpg" alt="recipes__img-2" class="recipes__img">
-                            <a class="recipes__link-text" href="#">Salads</a>
-                        </a>
-                    </div>
-                    <h3 class="recipes__name">Minty Melon Salad</h3>
-                </div>
-                <div class="recipes__tab">
-                    <div class="recipes__links">
-                        <a href="#" class="recipes__link">
-                            <img src="images/recipes_img-3.jpg" alt="recipes__img-3" class="recipes__img">
-                            <a class="recipes__link-text" href="#">Main Dishes</a>
-                        </a>
-                    </div>
-                    <h3 class="recipes__name">Mexican Casserole</h3>
-                </div>
-            </div>
-        </container>
-    </section>
-
-    <!-- footer -->
-
-    <footer class="footer">
-        <nav class="footer__nav">
-            <ul class="footer__item">
-                <p class="footer__menu-title">General</p>
-                <li class="footer__menu"><a href="#">About Us</a></li>
-                <li class="footer__menu"><a href="#">Our Shop</a></li>
-                <li class="footer__menu"><a href="#">Recipes</a></li>
-                <li class="footer__menu"><a href="#">Blog</a></li>
-            </ul>
-            <ul class="footer__item">
-                <p class="footer__menu-title">Webshop</p>
-                <li class="footer__menu"><a href="#">Delivery Information</a></li>
-                <li class="footer__menu"><a href="#">Returns & Cancellations</a></li>
-            </ul>
-            <ul class="footer__item">
-                <p class="footer__menu-title">Legal</p>
-                <li class="footer__menu"><a href="#">Terms of Use</a></li>
-                <li class="footer__menu"><a href="#">Terms of Purchase</a></li>
-                <li class="footer__menu"><a href="#">Privacy Policy</a></li>
-                <li class="footer__menu"><a href="#">Modern Slavery Policy</a></li>
-            </ul>
-            <ul class="footer__item">
-                <p class="footer__menu-title">Contact</p>
-                <li class="footer__menu"><a href="#">Facebook
-                    </a></li>
-                <li class="footer__menu"><a href="#">Twitter
-                    </a></li>
-                <li class="footer__menu"><a href="#">Instagram
-                    </a></li>
-                <li class="footer__menu"><a href="#">Youtube</a></li>
-            </ul>
+  <div class="container">
+    <header class="site-header">
+      <div class="logo__lot">
+        <a class="logo" href="#">
+          <img class="img__logo" src="images/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="nav__site-header">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Our Shop</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Blog</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Recipes</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">About Us</a>
+            </li>
+          </ul>
         </nav>
-    </footer>
+        <div class="btns__site-header">
+          <a href="#" class="search">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_4_3)">
+                <path
+                  d="M28.7467 27.5211L21.6992 20.4736C23.5897 18.3002 24.7343 15.4645 24.7343 12.3652C24.7343 5.54279 19.1851 0 12.3691 0C5.5467 0 0.00390625 5.54922 0.00390625 12.3652C0.00390625 19.1812 5.55313 24.7304 12.3691 24.7304C15.4684 24.7304 18.3041 23.5858 20.4775 21.6953L27.525 28.7428C27.6922 28.91 27.9172 29 28.1358 29C28.3545 29 28.5795 28.9164 28.7467 28.7428C29.0811 28.4084 29.0811 27.8554 28.7467 27.5211ZM1.73362 12.3652C1.73362 6.50089 6.50479 1.73614 12.3627 1.73614C18.227 1.73614 22.9917 6.50732 22.9917 12.3652C22.9917 18.2231 18.227 23.0007 12.3627 23.0007C6.50479 23.0007 1.73362 18.2295 1.73362 12.3652Z"
+                  fill="#333333" />
+              </g>
+              <defs>
+                <clipPath id="clip0_4_3">
+                  <rect width="29" height="29" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <hr class="line">
+          <a href="#" class="basket">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.301 7.95909C25.2726 7.51795 24.9077 7.17484 24.4655 7.17484H20.0377V5.86666C20.0377 3.24703 17.5532 1.11538 14.5 1.11538C11.4469 1.11538 8.96232 3.24703 8.96232 5.86666V7.17484H4.53455C4.09231 7.17484 3.72742 7.51795 3.6991 7.95909L2.51073 26.9958C2.49657 27.2267 2.57827 27.4522 2.73621 27.621C2.89415 27.7888 3.11526 27.8846 3.34618 27.8846H25.6539C25.8848 27.8846 26.1059 27.7888 26.2639 27.621C26.4218 27.4522 26.5035 27.2267 26.4893 26.9958L25.301 7.95909ZM10.6354 5.86666C10.6354 4.16962 12.3695 2.78846 14.5 2.78846C16.6306 2.78846 18.3647 4.16962 18.3647 5.86666V7.17484H10.6354V5.86666ZM8.96232 8.84792V10.6648C8.96232 11.1266 9.33702 11.5013 9.79886 11.5013C10.2607 11.5013 10.6354 11.1266 10.6354 10.6648V8.84792H18.3647V10.6648C18.3647 11.1266 18.7394 11.5013 19.2012 11.5013C19.663 11.5013 20.0377 11.1266 20.0377 10.6648V8.84792H23.6791L24.4039 20.4484H4.59616L5.32098 8.84792H8.96232ZM4.23609 26.2115L4.52651 21.5637H24.4735L24.764 26.2115H4.23609Z"
+                fill="#333333" />
+            </svg>
+          </a>
+          <button type="button" class="login__btn">Login</button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- main -->
+
+  <main class="hero-banner">
+    <div class="main-container">
+      <div class="container">
+        <div class="container__top">
+          <h1 class="title">Organic Food Store</h1>
+          <p class="banner__text">Current delivery lead times are between 5-7 working days</p>
+          <button type="button" class="banner__btn">Shop now</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- our__products -->
+
+  <div class="container">
+    <section class="our__products">
+      <h2 class="product__title">Our <span class="color">Products</span></h2>
+      <div class="card__product">
+        <div class="card__product-item">
+          <img class="product__img" src="images/avrum.jpg" alt="">
+          <h4 class="product__item"><span class="product__text-name">Arvum</span><br><strong class="product__text">Gran Reserva Vinegar,</strong>
+            <span class="product__text-volume">200ml</span>
+          </h4>
+          <p class="product__price">31,51 €</p>
+          <button type="button" class="product__buy">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.3009 7.95907C25.2726 7.51792 24.9077 7.17481 24.4655 7.17481H20.0377V5.86663C20.0377 3.247 17.5531 1.11536 14.5 1.11536C11.4468 1.11536 8.96228 3.247 8.96228 5.86663V7.17481H4.53451C4.09227 7.17481 3.72738 7.51792 3.69906 7.95907L2.51069 26.9958C2.49653 27.2267 2.57823 27.4522 2.73617 27.621C2.89411 27.7887 3.11522 27.8846 3.34614 27.8846H25.6538C25.8848 27.8846 26.1059 27.7887 26.2638 27.621C26.4218 27.4522 26.5034 27.2267 26.4893 26.9958L25.3009 7.95907ZM10.6354 5.86663C10.6354 4.16959 12.3694 2.78843 14.5 2.78843C16.6305 2.78843 18.3646 4.16959 18.3646 5.86663V7.17481H10.6354V5.86663ZM8.96228 8.84789V10.6647C8.96228 11.1266 9.33698 11.5013 9.79882 11.5013C10.2607 11.5013 10.6354 11.1266 10.6354 10.6647V8.84789H18.3646V10.6647C18.3646 11.1266 18.7393 11.5013 19.2012 11.5013C19.663 11.5013 20.0377 11.1266 20.0377 10.6647V8.84789H23.679L24.4039 20.4483H4.59612L5.32094 8.84789H8.96228ZM4.23605 26.2115L4.52647 21.5637H24.4735L24.7639 26.2115H4.23605Z"
+                fill="#9C9C42" />
+            </svg>
+            <span>Add to cart</span>
+          </button>
+        </div>
+        <div class="card__product-item">
+          <img class="product__img" src="images/jose_andres.jpg" alt="">
+          <h4 class="product__item"><span class="product__text-name">José Andrés</span><br><strong>Extra Virgin Olive,</strong>
+            <span class="product__text-volume">500ml</span>
+          </h4>
+          <p class="product__price">52,95 €</p>
+          <button type="button" class="product__buy">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.3009 7.95907C25.2726 7.51792 24.9077 7.17481 24.4655 7.17481H20.0377V5.86663C20.0377 3.247 17.5531 1.11536 14.5 1.11536C11.4468 1.11536 8.96228 3.247 8.96228 5.86663V7.17481H4.53451C4.09227 7.17481 3.72738 7.51792 3.69906 7.95907L2.51069 26.9958C2.49653 27.2267 2.57823 27.4522 2.73617 27.621C2.89411 27.7887 3.11522 27.8846 3.34614 27.8846H25.6538C25.8848 27.8846 26.1059 27.7887 26.2638 27.621C26.4218 27.4522 26.5034 27.2267 26.4893 26.9958L25.3009 7.95907ZM10.6354 5.86663C10.6354 4.16959 12.3694 2.78843 14.5 2.78843C16.6305 2.78843 18.3646 4.16959 18.3646 5.86663V7.17481H10.6354V5.86663ZM8.96228 8.84789V10.6647C8.96228 11.1266 9.33698 11.5013 9.79882 11.5013C10.2607 11.5013 10.6354 11.1266 10.6354 10.6647V8.84789H18.3646V10.6647C18.3646 11.1266 18.7393 11.5013 19.2012 11.5013C19.663 11.5013 20.0377 11.1266 20.0377 10.6647V8.84789H23.679L24.4039 20.4483H4.59612L5.32094 8.84789H8.96228ZM4.23605 26.2115L4.52647 21.5637H24.4735L24.7639 26.2115H4.23605Z"
+                fill="#9C9C42" />
+            </svg>
+            <span>Add to cart</span>
+          </button>
+        </div>
+        <div class="card__product-item">
+          <img class="product__img" src="images/ego_sum.jpg" alt="">
+          <h4 class="product__item"><span class="product__text-name">Ego Sum</span><br><strong>Extra Virgin Olive Oil,</strong>
+            <span class="product__text-volume">500ml</span>
+          </h4>
+          <p class="product__price">22,49 €</p>
+          <button type="button" class="product__buy">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.3009 7.95907C25.2726 7.51792 24.9077 7.17481 24.4655 7.17481H20.0377V5.86663C20.0377 3.247 17.5531 1.11536 14.5 1.11536C11.4468 1.11536 8.96228 3.247 8.96228 5.86663V7.17481H4.53451C4.09227 7.17481 3.72738 7.51792 3.69906 7.95907L2.51069 26.9958C2.49653 27.2267 2.57823 27.4522 2.73617 27.621C2.89411 27.7887 3.11522 27.8846 3.34614 27.8846H25.6538C25.8848 27.8846 26.1059 27.7887 26.2638 27.621C26.4218 27.4522 26.5034 27.2267 26.4893 26.9958L25.3009 7.95907ZM10.6354 5.86663C10.6354 4.16959 12.3694 2.78843 14.5 2.78843C16.6305 2.78843 18.3646 4.16959 18.3646 5.86663V7.17481H10.6354V5.86663ZM8.96228 8.84789V10.6647C8.96228 11.1266 9.33698 11.5013 9.79882 11.5013C10.2607 11.5013 10.6354 11.1266 10.6354 10.6647V8.84789H18.3646V10.6647C18.3646 11.1266 18.7393 11.5013 19.2012 11.5013C19.663 11.5013 20.0377 11.1266 20.0377 10.6647V8.84789H23.679L24.4039 20.4483H4.59612L5.32094 8.84789H8.96228ZM4.23605 26.2115L4.52647 21.5637H24.4735L24.7639 26.2115H4.23605Z"
+                fill="#9C9C42" />
+            </svg>
+            <span>Add to cart</span>
+          </button>
+        </div>
+        <div class="card__product-item">
+          <img class="product__img" src="images/jose_andres_2.jpg" alt="">
+          <h4 class="product__item"><span class="product__text-name">José Andrés</span><br><strong>Extra Virgin Olive Oil,</strong>
+            <span class="product__text-volume">500ml</span>
+          </h4>
+          <p class="product__price">23,83 €</p>
+          <button type="button" class="product__buy">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.3009 7.95907C25.2726 7.51792 24.9077 7.17481 24.4655 7.17481H20.0377V5.86663C20.0377 3.247 17.5531 1.11536 14.5 1.11536C11.4468 1.11536 8.96228 3.247 8.96228 5.86663V7.17481H4.53451C4.09227 7.17481 3.72738 7.51792 3.69906 7.95907L2.51069 26.9958C2.49653 27.2267 2.57823 27.4522 2.73617 27.621C2.89411 27.7887 3.11522 27.8846 3.34614 27.8846H25.6538C25.8848 27.8846 26.1059 27.7887 26.2638 27.621C26.4218 27.4522 26.5034 27.2267 26.4893 26.9958L25.3009 7.95907ZM10.6354 5.86663C10.6354 4.16959 12.3694 2.78843 14.5 2.78843C16.6305 2.78843 18.3646 4.16959 18.3646 5.86663V7.17481H10.6354V5.86663ZM8.96228 8.84789V10.6647C8.96228 11.1266 9.33698 11.5013 9.79882 11.5013C10.2607 11.5013 10.6354 11.1266 10.6354 10.6647V8.84789H18.3646V10.6647C18.3646 11.1266 18.7393 11.5013 19.2012 11.5013C19.663 11.5013 20.0377 11.1266 20.0377 10.6647V8.84789H23.679L24.4039 20.4483H4.59612L5.32094 8.84789H8.96228ZM4.23605 26.2115L4.52647 21.5637H24.4735L24.7639 26.2115H4.23605Z"
+                fill="#9C9C42" />
+            </svg>
+            <span>Add to cart</span>
+          </button>
+        </div>
+      </div>
+
+      <footer class="products-footer">
+        <button type="button" class="primary-button">
+          <span>Shop all products</span>
+          <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.5 1L20 9M20 9L12.5 17M20 9H0" stroke="white" stroke-width="1.75" />
+          </svg> </button>
+      </footer>
+    </section>
+  </div>
+
+  <!-- about__us -->
+
+  <section class="about__us">
+    <div class="main-container">
+      <div class="container__about">
+        <h2 class="about__title">ABOUT <span class="color">US</span></h2>
+        <p class="about__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+          vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+        <button type="button" class="primary-button">Find out more
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog -->
+
+  <section class="blog">
+    <div class="container">
+      <div class="blog__title">
+        <h2 class="blog__title-name">BLOG</h2>
+        <a class="blog__news" href="#">
+          <p class="blog__news-text">more news</p>
+          <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L1 9" stroke="#9C9C42" stroke-width="1.5" />
+          </svg>
+        </a>
+      </div>
+      <div class="blog__tabs">
+        <div class="blog__tab">
+          <div class="blog__links">
+            <a href="#" class="blog__link">
+              <img src="images/blog_img-1.jpg" alt="blog__img-1" class="blog__img">
+              <svg width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M49 0V50H0.0100011C0.00334424 49.6675 0 49.3341 0 49C0 21.938 21.938 0 49 0Z" fill="#9C9C42" />
+                <path d="M31.5 23L39 31M39 31L31.5 39M39 31H19" stroke="white" stroke-width="1.75" />
+              </svg>
+            </a>
+          </div>
+          <div class="blog__info">
+            <p class="blog__date">8 SEP 2020</p>
+            <div class="blog__ellipse"></div>
+            <img class="blog__review" src="images/review.svg" alt="review">
+            <p class="blog__number">585</p>
+          </div>
+          <h3 class="blog__name"><a href="#">5 reasons to love organic</a></h3>
+          <p class="blog__text">There are many reasons to love organic food and farming. We take a look at why
+            organic is good for you and your family.</p>
+        </div>
+        <div class="blog__tab">
+          <div class="blog__links">
+            <a href="#" class="blog__link">
+              <img src="images/blog_img-2.jpg" alt="blog__img-2" class="blog__img">
+              <svg width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M49 0V50H0.0100011C0.00334424 49.6675 0 49.3341 0 49C0 21.938 21.938 0 49 0Z" fill="#9C9C42" />
+                <path d="M31.5 23L39 31M39 31L31.5 39M39 31H19" stroke="white" stroke-width="1.75" />
+              </svg>
+            </a>
+          </div>
+          <div class="blog__info">
+            <p class="blog__date">6 SEP 2020</p>
+            <div class="blog__ellipse"></div>
+            <img class="blog__review" src="images/review.svg" alt="review">
+            <p class="blog__number">820</p>
+          </div>
+          <h3 class="blog__name"><a href="#">You’re the Apple for My Pie</a></h3>
+          <p class="blog__text">This year, we plan to bake a home-made apple pie, but we need the main ingredient:
+            apples, of course!</p>
+        </div>
+        <div class="blog__tab">
+          <div class="blog__links">
+            <a href="#" class="blog__link">
+              <img src="images/blog_img-3.jpg" alt="blog__img-3" class="blog__img">
+              <svg width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M49 0V50H0.0100011C0.00334424 49.6675 0 49.3341 0 49C0 21.938 21.938 0 49 0Z" fill="#9C9C42" />
+                <path d="M31.5 23L39 31M39 31L31.5 39M39 31H19" stroke="white" stroke-width="1.75" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="blog__info">
+            <p class="blog__date">6 SEP 2020</p>
+            <div class="blog__ellipse"></div>
+            <img class="blog__review" src="images/review.svg" alt="review">
+            <p class="blog__number">923</p>
+          </div>
+          <h3 class="blog__name"><a href="#">Best Christmas food gifts for 2020</a></h3>
+          <p class="blog__text">From quick bites to comforting teas, Christmas is the right time of the year
+            to spoil your loved ones with food gifts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- recipes -->
+
+  <section class="recipes">
+    <div class="container__recipes">
+      <div class="recipes__title">
+        <h2 class="recipes__title-name">RECIPES</h2>
+        <a class="recipes__view" href="#">
+          <p class="recipes__view-text">view all</p>
+          <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L1 9" stroke="#9C9C42" stroke-width="1.5" />
+          </svg>
+        </a>
+      </div>
+      <div class="recipes__tabs">
+        <div class="recipes__tab">
+          <div class="recipes__links">
+            <a href="#" class="recipes__link">
+              <span class="recipes__link-text">Breakfast</span>
+              <img src="images/recipes_img-1.jpg" alt="recipes__img-1" class="recipes__img">
+            </a>
+          </div>
+          <h3 class="recipes__name">
+            <a href="#">
+              Banana Crunch Pancakes
+            </a>
+          </h3>
+        </div>
+        <div class="recipes__tab">
+          <div class="recipes__links">
+            <a href="#" class="recipes__link">
+              <img src="images/recipes_img-2.jpg" alt="recipes__img-2" class="recipes__img">
+              <span class="recipes__link-text">Salads</span>
+            </a>
+          </div>
+          <h3 class="recipes__name">
+            <a href="#">
+              Minty Melon Salad
+            </a>
+          </h3>
+        </div>
+        <div class="recipes__tab">
+          <div class="recipes__links">
+            <a href="#" class="recipes__link">
+              <img src="images/recipes_img-3.jpg" alt="recipes__img-3" class="recipes__img">
+              <span class="recipes__link-text">Main Dishes</span>
+            </a>
+          </div>
+          <h3 class="recipes__name">
+            <a href="#">
+              Mexican Casserole
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="main-container">
+      <nav class="footer__nav">
+        <div class="footer__item">
+          <h4 class="footer__menu-title">General</h4>
+          <ul>
+            <li class="footer__menu"><a href="#">About Us</a></li>
+            <li class="footer__menu"><a href="#">Our Shop</a></li>
+            <li class="footer__menu"><a href="#">Recipes</a></li>
+            <li class="footer__menu"><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4 class="footer__menu-title">Webshop</h4>
+          <ul>
+            <li class="footer__menu"><a href="#">Delivery Information</a></li>
+            <li class="footer__menu"><a href="#">Returns & Cancellations</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4 class="footer__menu-title">Legal</h4>
+          <ul>
+            <li class="footer__menu"><a href="#">Terms of Use</a></li>
+            <li class="footer__menu"><a href="#">Terms of Purchase</a></li>
+            <li class="footer__menu"><a href="#">Privacy Policy</a></li>
+            <li class="footer__menu"><a href="#">Modern Slavery Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4 class="footer__menu-title">Contact</h4>
+          <ul>
+            <li class="footer__menu"><a href="#">Facebook
+              </a></li>
+            <li class="footer__menu"><a href="#">Twitter
+              </a></li>
+            <li class="footer__menu"><a href="#">Instagram
+              </a></li>
+            <li class="footer__menu"><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </footer>
 
 
 </body>
