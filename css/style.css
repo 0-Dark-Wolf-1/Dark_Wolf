@@ -32,7 +32,6 @@ a {
 
 .container {
   margin: 0 auto;
-  /* max-width: 1170px; */
   padding-left: 55px;
   padding-right: 55px;
 }
@@ -192,11 +191,6 @@ a {
 
 /* our__products */
 
-/* .our__products {
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
-
 .product__title {
   font-size: 36px;
   text-transform: uppercase;
@@ -312,8 +306,6 @@ button.primary-button svg {
 /* about__us */
 
 .about__us {
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
   background-image: url('../images/about_us_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,8 +325,6 @@ button.primary-button svg {
 /* blog */
 
 .blog {
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
   background-color: #fff;
 }
 
@@ -438,11 +428,6 @@ button.primary-button svg {
 }
 
 /* recipes */
-
-/* .recipes {
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
 
 .recipes__title {
   max-height: 40px;
