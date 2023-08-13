@@ -19,7 +19,6 @@ body {
   color: #262626;
 }
 
-
 ul {
   list-style: none;
 }
@@ -31,6 +30,7 @@ a {
 }
 
 .container {
+  max-width: 1170px;
   margin: 0 auto;
   padding-left: 55px;
   padding-right: 55px;
@@ -41,8 +41,6 @@ a {
   padding-bottom: 100px;
 }
 
-/* header */
-
 .logo__lot {
   padding: 30px;
   background: #fff;
@@ -52,7 +50,6 @@ a {
   z-index: 1;
 }
 
-
 .nav__site-header {
   display: flex;
   justify-content: space-between;
@@ -60,9 +57,28 @@ a {
   padding: 27px 0;
 }
 
-.menu {
+.menu-header {
   margin-left: 280px;
   margin-right: 70px;
+}
+
+.menu-header__btn {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-header__btn span {
+  height: 2px;
+  background-color: #262626;
+  width: 100%;
 }
 
 .menu__list {
@@ -118,8 +134,6 @@ a {
   box-shadow: 4px 4px 7px rgba(156, 156, 66, 0.7);
   color: #fff;
 }
-
-/* main */
 
 .hero-banner {
   padding-top: 206px;
@@ -188,8 +202,6 @@ a {
   position: relative;
   z-index: -1;
 }
-
-/* our__products */
 
 .product__title {
   font-size: 36px;
@@ -290,7 +302,6 @@ button.primary-button {
   cursor: pointer;
   padding: 12px 26px 11px;
   transition-duration: .2s;
-
 }
 
 .primary-button:hover {
@@ -301,9 +312,6 @@ button.primary-button {
 button.primary-button svg {
   margin-left: 12px;
 }
-
-
-/* about__us */
 
 .about__us {
   background-image: url('../images/about_us_bg.jpg');
@@ -321,8 +329,6 @@ button.primary-button svg {
   margin-top: 40px;
   margin-bottom: 50px;
 }
-
-/* blog */
 
 .blog {
   background-color: #fff;
@@ -427,8 +433,6 @@ button.primary-button svg {
   color: #313131;
 }
 
-/* recipes */
-
 .recipes__title {
   max-height: 40px;
   display: flex;
@@ -501,9 +505,6 @@ button.primary-button svg {
   color: #9c9c42;
 }
 
-
-/* footer */
-
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -532,4 +533,84 @@ button.primary-button svg {
 
 .footer__menu a:hover {
   color: #313131;
+}
+
+@media (max-width: 1279px) {
+  .card__product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .blog__tabs {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .recipes__tabs {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1139px) {
+  .menu-header__btn {
+    display: flex;
+  }
+
+  .logo__lot {
+    position: absolute;
+    z-index: 5;
+  }
+
+  .menu-header__btn,
+  .btns__site-header {
+    position: relative;
+    z-index: 10;
+  }
+
+  .menu__list {
+    min-width: 100px;
+    padding: 10px;
+    gap: 15px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    background-color: #f5f5f5;
+    box-shadow: 8px 8px 7px rgba(38, 38, 38, 0.4);
+    transform-origin: 0 0;
+    transform: rotateX(-90deg);
+    transition: .3s linear;
+  }
+
+  .menu-header__btn:hover +.menu__list {
+    transform: rotateX(0deg);
+  }
+}
+
+@media (max-width: 989px) {
+  .card__product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 699px) {
+  .card__product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+}
+
+@media (max-width: 679px) {
+  .footer__nav {
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 }
